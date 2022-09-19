@@ -1,0 +1,30 @@
+{
+  "name": "nodecircleci",
+  "version": "1.0.0",
+  "description": "demo project",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --recursive --exit -R spec",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srikanthvadde/nodecircleci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srikanthvadde/nodecircleci/issues"
+  },
+  "homepage": "https://github.com/srikanthvadde/nodecircleci#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0"
+  }
+}
